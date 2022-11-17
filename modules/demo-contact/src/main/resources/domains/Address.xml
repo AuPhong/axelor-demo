@@ -8,7 +8,7 @@
   <entity name="Address" cacheable="true">
     <many-to-one name="contact" ref="Contact" required="true" />
     <string name="street" required="true" max="255" initParam="true"/>
-    <string name="area" max="255" initParam="true"/>
+    <string name="area" max="255" initParam="true"></string>
     <string name="city" initParam="true"/>
     <string name="zip" />
     <string name="state" />
